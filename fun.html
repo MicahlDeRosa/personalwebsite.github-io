@@ -1,41 +1,72 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title></title>
-  </head>
-  <body class = "fun">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I SEE U</title>
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body class="fun">
 
 
-  <div class="eyes">
-    <div class="eye">
-      <div class="ball"></div>
+
+    <div class="eyes">
+        <div class="eye">
+            <div class="ball"></div>
+        </div>
+
+        <div class="eye">
+            <div class="ball"></div>
+        </div>
     </div>
 
-    <div class="eye">
-      <div class="ball"></div>
+
+    <script>
+        var balls = document.getElementsByClassName("ball");
+        document.onmousemove = function () {
+            var x = event.clientX * 100 / window.innerWidth + "%";
+            var y = event.clientY * 100 / window.innerHeight + "%";
+            //event.clientX => get the horizontal coordinate of the mouse
+            //event.clientY => get the Vertical coordinate of the mouse
+            //window.innerWidth => get the browser width
+            //window.innerHeight => get the browser height
+
+            for (var i = 0; i < 2; i++) {
+                balls[i].style.left = x;
+                balls[i].style.top = y;
+                balls[i].style.transform = "translate(-" + x + ",-" + y + ")";
+            }
+        }
+    </script>
+
+    <div class="side-menu">
+        <div class="toggle-btn fa fa-chevron-left"></div>
+        <a href="index.html">
+            <i class="fa fa-home"></i>
+            Home
+        </a>
+
+        <a href="#">
+            <i class="fa fa-question"></i>
+            About
+        </a>
+
+        <a href="#">
+            <i class="fa fa-address-card"></i>
+            Contact
+        </a>
+
     </div>
-  </div>
 
+    <script>
+        $(".toggle-btn").click(function () {
+            $(".side-menu").toggleClass("active");
+            $(this).toggleClass("fa-chevron-right");
+        });
+    </script>
+</body>
 
-<script>
-  var balls = document.getElementsByClassName("ball");
-  document.onmousemove = function(){
-    var x = event.clientX * 100 / window.innerWidth + "%";
-    var y = event.clientY * 100 / window.innerHeight + "%";
-    //event.clientX => get the horizontal coordinate of the mouse
-    //event.clientY => get the Vertical coordinate of the mouse
-    //window.innerWidth => get the browser width
-    //window.innerHeight => get the browser height
-
-    for(var i=0;i<2;i++){
-      balls[i].style.left = x;
-      balls[i].style.top = y;
-      balls[i].style.transform = "translate(-"+x+",-"+y+")";
-    }
-  }
-</script>
-
-  </body>
 </html>
