@@ -1,0 +1,65 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+        <link rel="stylesheet" href="/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      
+      </head>
+
+<body class=contact-body>
+    <div class="contact-form">
+        <div class="header">
+            <span><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+        </div>
+        <form class="contact" action="index.html" method="post">
+            <label for="">Full Name :</label><br>
+            <input class="texti" type="text" name="" value="">
+            <label for="">E-mail :</label><br>
+            <input class="texti" type="email" name="" value="">
+            <label for="">Phone Number :</label><br>
+            <input class="texti" type="text" name="" value="">
+            <label for="">Message :</label><br>
+            <textarea class="textm"></textarea>
+            <input class="btn" name="" type="button" value="Send" />
+            <closeform></closeform>
+        </form>
+    </div>
+
+    <div class="side-menu">
+        <div class="toggle-btn fa fa-chevron-left"></div>
+        <a href="index.html">
+            <i class="fa fa-home"></i>
+            Home
+        </a>
+
+        <a href="#">
+            <i class="fa fa-question"></i>
+            About
+        </a>
+
+        <a href="">
+            <i class="fa fa-book"></i>
+            News
+        </a>
+
+        <a href="fun.html">
+            <i class="fa fa-eye"></i>
+            I see u
+        </a>
+
+    </div>
+
+    <script>
+        $(".toggle-btn").click(function () {
+            $(".side-menu").toggleClass("active");
+            $(this).toggleClass("fa-chevron-right");
+        });
+    </script>
+</body>
+
+</html>
