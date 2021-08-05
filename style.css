@@ -140,14 +140,14 @@ ul{
 .contact-body{
   margin: 0;
   padding: 0;
-  background-image: url(img/code.jpg);
+  background-image: url(img/contact.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed ;
   background-size: cover;
   background-position: center center;
 }
 .contact-form{
-  background: white;
+  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   width: 400px;
   top: 50%;
@@ -156,7 +156,7 @@ ul{
 }
 .header{
   width: 100%;
-  background: #2196f3;
+  background: rgba(0, 0, 0, 0.4);
   overflow: hidden;
   color: white;
 }
@@ -170,7 +170,7 @@ ul{
   padding: 10px;
   overflow: hidden;
   font-family: 'Montserrat', sans-serif;
-  color: gray;
+  color: white;
 }
 .contact label{
   font-weight: 700;
@@ -178,22 +178,22 @@ ul{
 .texti{
   width: 100%;
   border: none;
-  border-bottom: 2px solid #2196f3;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
   font-size: 20px;
   margin: 8px 0;
   display: block;
   outline: none;
-  color: gray;
+  color: black;
 }
 .textm{
   width: 100%;
   border: none;
-  border-bottom: 2px solid #2196f3;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
   font-size: 20px;
   margin: 8px 0;
   display: block;
   outline: none;
-  color: gray;
+  color: black;
   min-height: 100px;
 }
 .btn{
@@ -201,7 +201,13 @@ ul{
   color: white;
   padding: 10px;
   text-align: center;
-  background: #2196f3;
+  background: rgba(0, 0, 0, 0.4);
   font-size: 20px;
   border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #333;
+  color: #f1f1f1;
 }
