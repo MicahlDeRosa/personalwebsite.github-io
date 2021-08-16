@@ -1,65 +1,41 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="stylesheets/style2.css">
 </head>
-
-<body class="contact-body">
-    <div class="contact-form">
-        <div class="header">
-            <span><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
-        </div>
-        <form class="contact" action="https://formsubmit.co/derosam14@gmail.com" method="POST">
-            <label for="">Full Name :</label><br>
-            <input class="texti" type="text" name="name" required value="">
-            <label for="">E-mail :</label><br>
-            <input class="texti" type="email" name="email" required value="">
-            <label for="">Phone Number :</label><br>
-            <input class="texti" type="text" name="phone" required value="">
-            <label for="">Message :</label><br>
-            <textarea class="textm"></textarea>
-            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
-            <closeform></closeform>
-        </form>
+<body>
+  <div class="contact-page">
+    <h2>Get in touch</h2>
+    <div class="contact-info">
+      <div class="item">
+        <i class="icon fas fa-building"></i>
+        New York, United States
+      </div>
+      <div class="item">
+        <i class="icon fas fa-phone"></i>
+        +1(203)-503-7054
+      </div>
+      <div class="item">
+        <i class="icon fas fa-envelope"></i>
+        derosam14@gmail.com
+      </div>
+      <div class="item">
+        <i class="icon fas fa-home"></i>
+        <a href="Home.html">Home Page</a>
+      </div>
     </div>
-
-    <div class="side-menu">
-        <div class="toggle-btn fa fa-chevron-left"></div>
-        <a href="ContactCard.html">
-            <i class="fa fa-home"></i>
-            Home
-        </a>
-
-        <a href="about.html">
-            <i class="fa fa-question"></i>
-            About
-        </a>
-
-        <a href="">
-            <i class="fa fa-book"></i>
-            News
-        </a>
-
-        <a href="fun.html">
-            <i class="fa fa-eye"></i>
-            Misc
-        </a>
-
-    </div>
-
-    <script>
-        $(".toggle-btn").click(function () {
-            $(".side-menu").toggleClass("active");
-            $(this).toggleClass("fa-chevron-right");
-        });
-    </script>
+    <form class="contact-form" action="https://formsubmit.co/derosam14@gmail.com" method="POST">
+      <input type="text" class="textb" placeholder="Your Name" required value="">
+      <input type="email" class="textb" placeholder="Your Email" required value="">
+      <textarea placeholder="Your Message" required value=""></textarea>
+      <input type="submit" class="btn" value='Send'>
+    </form>
+  </div>
 </body>
+</html>
 
 </html>
