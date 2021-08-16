@@ -4,6 +4,12 @@ body {
 header .carousel-inner .item {
 	height: 100vh;
 }
+
+img{
+	width: 100%;
+	height: auto;
+}
+
 .navbar-inverse {
 	background-color: transparent;
 	border-color: transparent;
