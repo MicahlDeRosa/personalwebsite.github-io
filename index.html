@@ -1,103 +1,653 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Micahl DeRosa</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personal Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
-          rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheets/style3.css">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://i.postimg.cc/3wxrm2yk/growth.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.postimg.cc/3wxrm2yk/growth.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://i.postimg.cc/3wxrm2yk/growth.png">
+    <link rel="manifest" href="site.webmanifest">
 
 </head>
-<body>
 
-<header>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="ContactCard.html"><img src="https://i.postimg.cc/3wxrm2yk/growth.png"
-                                                                     alt=""></a>
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo2.PNG.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a href="ContactCard.html" title="Contact Card">Contact Card</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact us">Say Hello</a></li>	
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="https://www.linkedin.com/in/micahl-derosa-14b88a16b/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/micahlderosa?lang=en"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/MicahlDeRosa"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="row intro-content">
+
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hello, I'm Micahl DeRosa</h3>
+                <h1>
+                    A highly motivated and committed student at the<br>
+                    University of Connecticut <br>
+                </h1>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="ContactCard.html">Contact Card</a></li>
-                    <li><a href="contact.html">contact</a></li>
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end intro -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                    I am a highly goal-driven student at the University of Connecticut, pursuing a Masters in Applied Financial Mathematics. 
+                    I was a standout student at Southern Connecticut State University  
+                    where I received my BS in Computer Science with a Concentration in Information Systems and a Minor in Mathematics. 
+                    </p>
+
+                    <p>
+                    I have a unique ability to multitask, while being detail-oriented in a large range of financial and programming skills.
+                    I am constantly motivated to learn, grow and excel. 
+                    I take pride in my ability to collaborate with others, 
+                    while being enthusiastic and eager to contribute to team success through hard work, 
+                    attention to detail and excellent organizational skills. 
+                    It is my goal to work in the financial sector,
+                    where I can use the skillsets I've acquired to help organizations make calculated decisions to grow and expand to their fullest potential.
+                    </p>
+
+                    <div class="col-six tab-full">
+        
+                        <h3>Skill Bars</h3>
+                        
+                        <ul class="skill-bars">
+                            <li>
+                            <div class="progress percent90"><span>90%</span></div>
+                            <strong>Python</strong>
+                            </li>
+                            <li>
+                            <div class="progress percent85"><span>85%</span></div>
+                            <strong>HTLM5</strong>
+                            </li>
+                            <li>
+                            <div class="progress percent70"><span>70%</span></div>
+                            <strong>CSS</strong>
+                            </li>
+                            <li>
+                            <div class="progress percent90"><span>90%</span></div>
+                            <strong>Git</strong>
+                            </li>
+                            <li>
+                            <div class="progress percent95"><span>95%</span></div>
+                            <strong>Linux</strong>
+                            </li>
+                            <li>
+                            <div class="progress percent75"><span>60%</span></div>
+                            <strong>R</strong>
+                            </li>
+                            <li>
+                            <div class="progress percent90"><span>90%</span></div>
+                            <strong>Mircosoft Excel</strong>
+                            </li>
+                        </ul>
+        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row about-me__buttons">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="#contact" class="btn btn--stroke full-width">Contact Me</a>
+                </div>
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="data/resume.pdf" class="btn btn--primary full-width">Download Resume</a>
+                </div>
+            </div>
+
+        </div> <!-- end about-me -->
+
+        <div class="about-experience">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Work & Education</h2>
+                </div>
+            </div>
+
+            <div class="row about-experience__timeline">
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">August 2020 - May 2021</p>
+                                <h3 class="item-title">Southern Connecticut State University</h3>
+                                <h5>Peer Academic Leader</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>
+                                    <li>
+                                        Mentor and Tutor in the Peer Academic Leader (PAL) Program at Southern Connecticut State University.
+                                    </li>
+                                    <li>
+                                        Responsible for educating undergraduate students in math skills and techniques in order for them to master complex Calculus concepts for their class assignments and projects
+                                    </li>
+                                    <li>
+                                        Execution of my mentoring techniques with in the PAL program have resulted in a large student clientele. My efficient time management skills have enabled me to maximize the number of available student sessions delivered on a weekly basis.
+                                    </li>
+                                    <li>
+                                        My knowledge of University math courses has consistently allowed me to execute effective student PAL sessions.
+                                    </li>
+                                    <li>
+                                        My teaching and evaluation skills with students have provided an opportunity for clients to become proficient in their study skills, time management and their abilities to process complex math assignments.
+                                    </li>
+                                    <li>
+                                        My services have resulted in student clients achieving high academic rewards in their University classes and programs.
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">July 2021 - Present</p>
+                                <h3 class="item-title">University of Connecticut</h3>
+                                <h5>Master Degree</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>  
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">September 2018 - May 2021</p>
+                                <h3 class="item-title">Southern Connecticut State University</h3>
+                                <h5>Bachelor Degree</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>
+                                    <li>
+                                    Majored in Computer Science with a concentration in Information technology.
+                                    </li>
+                                    <li>
+                                    Minored in Mathematics.
+                                    </li>
+                                    <li>
+                                    Dean's List: Spring 2018, Fall 2019, Spring 2019, Fall 2020, Spring 2020, Fall 2021, Spring 2021
+                                    </li>
+                                    <li>
+                                    Overall GPA: 3.61
+                                    </li>
+                                    <li>
+                                    Major GPA: 3.88
+                                    </li>
+                                    <li>
+                                    Graduated cum laude
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end about-experience -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">
+                    4212
+                </div>
+                <h4>Hours coding
+                </h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    3002
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    28
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    5342
+                </div>
+                <h4>Pieces of pizza eatten</h4>
+            </div>
+
+        </div>
+    </section> <!-- end s-stats -->
+
+
+
+    <!-- works
+    ================================================== 
+    <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
+                <p class="section-desc">
+                    Here are some of my selected works I have done lately. Feel free to 
+                    check them out.
+                </p>
+            </div>
+        </div> <!-- end heading-block 
+
+        <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-city-building.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/city-building.jpg" 
+                                     srcset="images/portfolio/city-building.jpg 1x, images/portfolio/city-building@2x.jpg 2x" alt="">
+                            </a>    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                City Building
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+    
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick 
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg" 
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Woodcraft
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/the-beetle.jpg"
+                                     srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                The Beetle
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg" 
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Shutterbug
+                            </h4>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Lamp
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick 
+        
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Fuji
+                            </h4>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick 
+
+            </div> <!-- end masonry 
+
+        </div> <!-- end masonry-wrap 
+
+    </section> <!-- end s-work -->
+
+
+    <!-- testimonies
+    ================================================== -->
+    <section class="s-testimonials">
+    
+        <div class="row testimonials" data-aos="fade-up">
+
+            <div class="column large-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <h1 class='center'>Favorite Quotes</h1>
+                    <p>Don't judge each day by the harvest you reap but by the seeds that you plant.</p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Robert Louis Stevenson</strong>
+                            <span>Scottish - Writer </span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <h1 class='center'>Favorite Quotes</h1>
+                    <p>It's a wonderful thing to be optimistic. It keeps you healthy and it keeps you resilient.</p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Daniel Kahneman</strong>
+                            <span>Israeli - Psychologist</span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <h1 class='center'>Favorite Quotes</h1>
+                    <p>Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future. Make your own hope. Make your own love. And whatever your beliefs, honor your creator, not by passively waiting for grace to come down from upon high, 
+                        but by doing what you can to make grace happen... yourself, right now, right down here on Earth..</p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Bradley Whitford</strong>
+                            <span>American - Actor </span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading">Get In Touch</h2>
+            </div>
+        </div>
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                <p class="contact-email">
+                    <a href="mailto:#0">hello@epitome.com</a>
+                </p>
+
+                <p class="section-desc">
+                I'm happy to connect, listen and help. Let's work together and build
+                something awesome. Let's turn your idea to an even greater product.
+                <a href="mailto:#0">Email Me</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+
+            <div class="column large-5 medium-full contact-phone">
+                <h4>Call Me</h4>
+                <a href="tel:197-543-2345">+197 543 2345</a>
+            </div>
+
+            <div class="column large-7 medium-full contact-social">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="#0" title="Facebook">Facebook</a></li>
+                    <li><a href="#0" title="Twitter">Twitter</a></li>
+                    <li><a href="#0" title="Instagram">Instagram</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <div class="banner" style="background-image: url(https://i.postimg.cc/T3zpzf9R/pattern.jpg);"></div>
-                <div class="carousel-caption">
-                    <h2 class="animated bounceInRight" style="animation-delay: 1s">I am <span>Hard Working</span></h2>
-                    <h3 class="animated bounceInLeft" style="animation-delay: 2s">Always looking to expand the knowledge
-                        I have </h3>
-                    <p class="animated bounceInRight" style="animation-delay: 3s"><a href="about.html">Read more about
-                        me</a></p>
-                </div>
             </div>
-            <div class="item">
-                <div class="banner" style="background-image: url(https://i.postimg.cc/50HK65z5/growth.png);"></div>
-                <div class="carousel-caption">
-                    <h2 class="animated slideInDown" style="animation-delay: 1s">I am <span>Diligent</span></h2>
-                    <h3 class="animated fadeInUp" style="animation-delay: 2s">Web Design and Programing skills</h3>
-                    <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Link to Resume</a></p>
-                </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">           
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
             </div>
-            <div class="item">
-                <div class="banner" style="background-image: url(https://i.postimg.cc/Y9nkwxH1/patten2.jpg);"></div>
-                <div class="carousel-caption">
-                    <h2 class="animated zoomIn" style="animation-delay: 1s">I am...<span>Micahl DeRosa</span></h2>
-                    <h3 class="animated fadeInLeft" style="animation-delay: 2s">A highly motivated and committed student
-                        at University of Connecticut pursuing a Master in Applied Financial Mathematics</h3>
-                    <p class="animated zoomIn" style="animation-delay: 3s"><a href="contact.html">Contact me</a></p>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
                 </div>
             </div>
 
         </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+    </div><!-- end photoSwipe background -->
 
-</header>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-</html>
