@@ -33,9 +33,6 @@
  *  # intro 
  *  # about
  *    ## timeline
- *  # services
- *  # CTA
- *  # works
  *  # testimonials
  *  # contact
  *  # footer
@@ -1501,6 +1498,7 @@ input::-moz-focus-inner {
 }
 
 .section-desc {
+  text-align: center;
   font-family: "Frank Ruhl Libre", serif;
   font-size: 5.4rem;
   font-weight: 400;
